@@ -1,0 +1,39 @@
+name: ydsappios
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_mobile_ads: ^4.0.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.2
+  path_provider: ^2.1.2
+  confetti: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/wordzarf.json
+    - assets/words.json
+    - assets/wordfiil.json
+    - assets/wordsifat.json
+    - assets/wordzarf.json
+    - assets/wordbaglac.json
+    - assets/wordpharasalverb.json
+    - assets/wordprep.json
+    - assets/wordoxford.json
+    # Daha sonra eklenecek diğer dosyalar için:
+    # - assets/images/
+    # - assets/data/
